@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/logo_appkiv2"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="16dp"
+        app:layout_constraintGuide_percent=".3" />
+
+    <Button
+        android:id="@+id/Znajdz"
+        style="@style/ButtonMenu"
+        android:layout_width="240dp"
+        android:layout_height="90dp"
+        android:background="@drawable/button_backgruud"
+        android:onClick="changeMenuOption"
+        android:text="@string/wypozyczalnia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline4" />
+
+    <Button
+        style="@style/ButtonMenu"
+        android:background="@drawable/button_backgruud"
+        android:id="@+id/Trasy"
+        android:layout_width="240dp"
+        android:layout_height="90dp"
+        android:text="@string/trasy"
+        android:onClick="changeMenuOption"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Znajdz" />
+
+    <Button
+        android:id="@+id/Kontakt"
+        android:background="@drawable/button_backgruud"
+        style="@style/ButtonMenu"
+        android:layout_width="240dp"
+        android:layout_height="90dp"
+        android:text="@string/kontakt"
+        android:onClick="changeMenuOption"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Trasy"
+        />
+
+    <Button
+        android:id="@+id/special_places"
+        style="@style/ButtonMenu"
+        android:layout_width="240dp"
+        android:layout_height="90dp"
+        android:background="@drawable/button_backgruud"
+        android:onClick="changeMenuOption"
+        android:text="@string/specialplaces"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Kontakt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

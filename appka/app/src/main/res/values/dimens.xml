@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="text_view_contact">25sp</dimen>
+    <dimen name="section_view_size">20sp</dimen>
+    //margines
+    <dimen name="container_margin">25dp</dimen>
+    <dimen name="title_margin">50dp</dimen>
+    <dimen name="section_margin">15dp</dimen>
+    //rozmiar
+    <dimen name="title_size">50dp</dimen>
+
+
+</resources>

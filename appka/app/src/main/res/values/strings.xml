@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">bicycle.tracker</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    //zakladka kontakt
+    <string-array name="contactList">
+        <item>Niechorze \n </item>
+        <item>Rewal \n </item>
+        <item>Pobierowo \n </item>
+        <item>Mobilny Serwis \n </item>
+    </string-array>
+
+    <string-array name="contactPhones">
+        <item>+48 123 543 928</item>
+        <item>+48 275 302 382</item>
+        <item>+48 758 273 125</item>
+        <item>+48 732 742 953</item>
+    </string-array>
+
+    <string-array name="routesNames">
+        <item>Piekło Północy</item>
+        <item>Leśne Pogo</item>
+        <item>Szlak Wybrzeża</item>
+        <item>Zabytki Gminy</item>
+        <item>Widoki</item>
+        <item>Pomniki</item>
+        <item>Liwia</item>
+        <item>Zabytki Niechorze</item>
+    </string-array>
+
+    <string-array name="routesLinks">
+        <item>https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1</item>
+        <item>https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1</item>
+        <item>https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1</item>
+        <item>https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1</item>
+        <item>https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1</item>
+        <item>https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1</item>
+        <item>https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1</item>
+        <item>https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1</item>
+    </string-array>
+
+
+    <string name="logo">LOGO</string>
+    //nazwy zakladek
+    <string name="kontakt">Kontakt</string>
+    <string name="specialplaces">Ciekawe miejsca</string>
+    <string name="zakladkaTrasy">Trasy</string>
+    <string name="znajdzNas">Znajdź nas</string>
+    //buttuony
+    <string name="wypozyczalnia">Znajdź \n wypożyczalnię</string>
+    <string name="trasy">Trasy \n rowerowe</string>
+    <string name="kontak">Kontak</string>
+    <string name="pieklo">Piekło \n Północy</string>
+    <string name="pogo">Leśne \n "Pogo"</string>
+    <string name="wybrzeze">Szlak \n Wybrzeża</string>
+    <string name="zabytki">Zabytki i \n Kultura</string>
+    //nazwy sekcji
+    <string name="TrasySportowe">Trasy Sportowe</string>
+    <string name="TrasyTurystyczne">Trasy Turystyczne</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_find_us">Map</string>
+
+
+</resources>
