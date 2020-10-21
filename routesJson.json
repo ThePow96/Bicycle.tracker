@@ -1,19 +1,19 @@
 [
     {
-	"name": "Niechorze",
-	"description":"Niechorze",
+	"name": " Wypożyczalnia Niechorze",
+	"description":"Puntk wypożyczalni w Niechorzu",
 	"longitude":"54.0944968",
 	"latitude":"15.0790052"
 	},
 	{
-	"name": "Rewal",
-	"description":"Rewal",
+	"name": " Wypożyczalnia Rewal",
+	"description":"Puntk wypożyczalni w Rewalu",
 	"longitude":"54.0807699",
 	"latitude":"15.0187143"
 	},
 	{
-	"name": "Pobierowo",
-	"description":"Pobierowo",
+	"name": "Wypożyczalnia Pobierowo",
+	"description":" Puntk wypożyczalni w Pobierowie",
 	"longitude":"54.0579675",
 	"latitude":"14.9325047"
 	}
