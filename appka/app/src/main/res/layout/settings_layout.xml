@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/logo_backgroud_purple"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/logo"
+        android:rotation="130"
+        android:src="@drawable/settings"
+        app:layout_constraintHeight_percent="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.3" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:text="@string/app_background"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@id/background_pink_gradient"
+        app:layout_constraintStart_toStartOf="@+id/background_dark_gray"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageButton
+        android:id="@+id/background_dark_gray"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:background="@color/dark_gray"
+        app:layout_constraintEnd_toStartOf="@+id/background_light_gray"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageButton
+        android:id="@+id/background_light_gray"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/litleGrey"
+        app:layout_constraintEnd_toStartOf="@+id/background_pink_gradient"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/background_dark_gray"
+        app:layout_constraintTop_toTopOf="@+id/background_dark_gray" />
+
+    <ImageButton
+        android:id="@+id/background_pink_gradient"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/background_gradient"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/background_light_gray"
+        app:layout_constraintTop_toTopOf="@id/background_light_gray" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:text="Język aplikacji"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="@+id/language_germany"
+        app:layout_constraintStart_toStartOf="@+id/language_english"
+        app:layout_constraintTop_toBottomOf="@+id/background_dark_gray" />
+
+    <ImageButton
+        android:id="@+id/language_english"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/english"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:onClick="changeAppLanguage"
+        app:layout_constraintEnd_toStartOf="@+id/language_polish"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <ImageButton
+        android:id="@+id/language_polish"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/poland"
+        android:onClick="changeAppLanguage"
+        app:layout_constraintEnd_toStartOf="@+id/language_germany"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/language_english"
+        app:layout_constraintTop_toTopOf="@+id/language_english" />
+
+    <ImageButton
+        android:id="@+id/language_germany"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/germany"
+        android:onClick="changeAppLanguage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/language_polish"
+        app:layout_constraintTop_toTopOf="@+id/language_english" />
+
+    <Button
+        android:id="@+id/settings_save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:text="@string/save"
+        style="@style/title"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_margin="@dimen/title_margin"
+        app:layout_constraintTop_toBottomOf="@+id/language_english" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface RestAPI {
 
-    @GET("/ThePow96/Bicycle.tracker/master/gameFuture.json")
+    @GET("/ThePow96/Bicycle.tracker/master/routesJson.json")
     fun getGamesList(): Call<List<PlacesData>>
 }

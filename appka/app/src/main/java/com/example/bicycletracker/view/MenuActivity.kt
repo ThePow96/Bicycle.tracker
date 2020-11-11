@@ -28,6 +28,10 @@ class MenuActivity : AppCompatActivity() {
             R.id.special_places -> {
                 intent = Intent(this, SpecialPlacesActivity::class.java)
             }
+
+            R.id.settings ->{
+                intent = Intent(this, SettingsActivity::class.java)
+            }
         }
         startActivity(intent)
     }
