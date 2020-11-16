@@ -36,7 +36,9 @@
         <activity
             android:theme="@style/AppTheme.NoActionBar"
             android:name=".view.SpecialPlacesActivity" />
-        <activity android:name=".view.SettingsActivity" />
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".view.SettingsActivity" />
     </application>
 
 </manifest>

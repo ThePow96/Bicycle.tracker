@@ -5,12 +5,15 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import com.example.bicycletracker.R
+import com.example.bicycletracker.tools.loadAppBackground
+import kotlinx.android.synthetic.main.menu_layout.*
 
 class MenuActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.menu_layout)
+        loadAppBackground(this, menu_layout)
     }
 
     fun changeMenuOption(v: View) {
@@ -28,11 +31,11 @@ class MenuActivity : AppCompatActivity() {
             R.id.special_places -> {
                 intent = Intent(this, SpecialPlacesActivity::class.java)
             }
-
             R.id.settings ->{
                 intent = Intent(this, SettingsActivity::class.java)
             }
         }
+        finish()
         startActivity(intent)
     }
 }

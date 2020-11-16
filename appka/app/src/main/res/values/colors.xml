@@ -12,5 +12,7 @@
     <color name="logoblue">#2994FF</color>
     <color name="logoyellow">#EAF82E</color>
     <color name="dark_gray">#2A282C</color>
+    <color name="dark_gray_btn">#403F42</color>
+    <color name="litleGrey_btn">#B3ADB6</color>
 
 </resources>
