@@ -71,7 +71,7 @@
         android:id="@+id/background_light_gray"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="@color/litleGrey_btn"
+        android:background="@drawable/background_gradient_grey"
         android:onClick="changeDefaultBackground"
         app:layout_constraintEnd_toStartOf="@+id/background_pink_gradient"
         app:layout_constraintHorizontal_bias="0.5"

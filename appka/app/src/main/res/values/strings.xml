@@ -68,6 +68,7 @@
     <string name="settings">SETTINGS</string>
     <string name="app_background">Tło Aplikacji</string>
     <string name="save">SAVE</string>
+    <string name="title_activity_last_location">Map</string>
 
 
 </resources>

@@ -1,12 +1,21 @@
 package com.example.bicycletracker.view
 
 import android.content.Intent
+import android.content.pm.PackageManager
+import android.location.Location
+import android.net.Uri
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.ActivityCompat
 import com.example.bicycletracker.R
 import com.example.bicycletracker.tools.loadAppBackground
+import com.google.android.gms.location.FusedLocationProviderClient
+import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.tasks.Task
 import kotlinx.android.synthetic.main.menu_layout.*
+import java.util.jar.Manifest
 
 class MenuActivity : AppCompatActivity() {
 
@@ -30,12 +39,16 @@ class MenuActivity : AppCompatActivity() {
             }
             R.id.special_places -> {
                 intent = Intent(this, SpecialPlacesActivity::class.java)
+
             }
-            R.id.settings ->{
+            R.id.settings -> {
                 intent = Intent(this, SettingsActivity::class.java)
             }
         }
-        finish()
+       finish()
         startActivity(intent)
     }
+
 }
+
+

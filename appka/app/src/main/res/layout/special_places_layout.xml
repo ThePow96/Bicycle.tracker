@@ -46,14 +46,36 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.2"/>
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6"/>
+
     <TextView
+        android:id="@+id/myLocation"
         style="@style/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dzienki dziala"
-        android:textSize="40sp"
+        android:text=""
         android:textColor="@android:color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/lokalizacja"
+        style="@style/ButtonMenu"
+        android:layout_width="240dp"
+        android:layout_height="90dp"
+        android:background="@drawable/button_backgruud"
+        android:text="@string/trasy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

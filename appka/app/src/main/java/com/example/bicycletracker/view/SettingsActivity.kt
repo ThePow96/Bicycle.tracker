@@ -96,7 +96,7 @@ class SettingsActivity : AppCompatActivity(){
                 R.color.dark_gray
             }
             R.id.background_light_gray -> {
-                R.color.litleGrey
+                R.drawable.background_gradient_grey
             }
             else -> {
                 R.drawable.background_gradient
