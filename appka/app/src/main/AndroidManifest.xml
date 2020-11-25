@@ -22,10 +22,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@googlemapsApikey" />
 
-
-        <activity
-            android:name=".view.interfaces.LastLocationActivity"
-            android:label="@string/title_activity_last_location" />
         <activity
             android:name=".view.FindUsActivity"
             android:label="@string/title_activity_find_us" />
@@ -50,6 +46,9 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".view.SettingsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.LastLocationActivity"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 

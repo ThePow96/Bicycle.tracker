@@ -68,7 +68,8 @@
     <string name="settings">SETTINGS</string>
     <string name="app_background">Tło Aplikacji</string>
     <string name="save">SAVE</string>
-    <string name="title_activity_last_location">Map</string>
+    <string name="title_activity_last_location" translatable="false">Map</string>
+    <string name="loadGps" translatable="false">Pobierz Lokalizację</string>
 
 
 </resources>
