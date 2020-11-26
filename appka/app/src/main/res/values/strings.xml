@@ -50,6 +50,7 @@
     //nazwy zakladek
     <string name="kontakt">Kontakt</string>
     <string name="specialplaces">Ciekawe miejsca</string>
+    <string name="alarm_data">Dane alarmowe</string>
     <string name="zakladkaTrasy">Trasy</string>
     <string name="znajdzNas">Znajdź nas</string>
     //buttuony
@@ -69,7 +70,14 @@
     <string name="app_background">Tło Aplikacji</string>
     <string name="save">SAVE</string>
     <string name="title_activity_last_location" translatable="false">Map</string>
-    <string name="loadGps" translatable="false">Pobierz Lokalizację</string>
-
+    <string name="loadGps" >Pobierz Lokalizację</string>
+    <string name="call_112">112\nZadzwoń</string>
+    <string name="app_gps_requirement" translatable="false">Dostęp do lokalizacji jest wymagany do określenia pozycji</string>
+    <string name="gps_loading_failed" >Nie udało się pobrać lokalizacji. Włącz GPS i Sprobuj ponownie&#8230;</string>
+    <string name="gps_loading_success" >Pobieranie lokalizacji - Sukces!</string>
+    <string name="gps_coordinates" >Your coordinates \n %1$f , %2$f</string>
+    <string name="your_coordinates">Your Coordinates:</string>
+    <string name="exit_confirmation">Czy na pewno chcesz wyjść z aplikacji?</string>
+    <string name="app_close_information">Aplikacja zostanie natymiastowo zamknięta</string>
 
 </resources>

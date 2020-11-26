@@ -8,7 +8,7 @@
     <dimen name="title_margin">50dp</dimen>
     <dimen name="section_margin">15dp</dimen>
     //rozmiar
-    <dimen name="title_size">50dp</dimen>
+    <dimen name="title_size">40dp</dimen>
 
 
 </resources>

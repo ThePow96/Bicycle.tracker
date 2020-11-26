@@ -31,6 +31,7 @@
         android:id="@+id/textView"
         style="@style/title"
         android:layout_width="0dp"
+        android:textColor="@color/white"
         android:layout_height="wrap_content"
         android:text="@string/kontakt"
         app:layout_constraintBottom_toTopOf="@id/guideline3"
