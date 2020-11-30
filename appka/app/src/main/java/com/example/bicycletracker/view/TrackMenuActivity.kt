@@ -9,7 +9,7 @@ import com.example.bicycletracker.view.adapter.RoutesAdapter
 import com.example.bicycletracker.view.interfaces.ActionButton
 import kotlinx.android.synthetic.main.track_menu_layout.*
 
-private const val GOOGLE_MAPS_PACKAGE = "com.google.android.apps.maps"
+const val GOOGLE_MAPS_PACKAGE = "com.google.android.apps.maps"
 class TrackMenuActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
