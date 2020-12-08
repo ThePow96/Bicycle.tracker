@@ -1,0 +1,260 @@
+[
+    {
+	"name": "Punkt widokowy Pogorzelina - Mrzeżyno",
+	"description":"Puntk widokowy z miejcem odpoczynku rowerzysty zlokalizowany między miejscowościami Pogorzelica a Mrzeżyno",
+	"longitude":"54.1194055",
+	"latitude":"15.2053655"
+	},
+	{
+	"name": "Nadmorska Kolej Wąskotorowa w Pogorzelicy",
+	"description":"Stacja koleji wąskotorowej w Pogorzelicy.",
+	"longitude":"54.0942191",
+	"latitude":"15.1077139"
+	},
+	{
+	"name": "Ujście jeziora liwia do morza",
+	"description":" miejsce w którym jezioro liwia łaczy się z morzem bałtyckim.",
+	"longitude":"54.0966391",
+	"latitude":"15.0977442"
+	},
+	{
+	"name": "Muzeum Rybołówstwa Morskiego",
+	"description":"Muzeum rybołówstwa morskiego. Wiele ciekawych eksponatów, możliwość zwiedzenia prawdziwej łodzi rybackiej czy świeża wędzona ryba to część atrakcji lokalnego muzeum.",
+	"longitude":"54.0954555",
+	"latitude":"15.0828297"
+	},
+	{
+	"name": "Oceanarium Niechorze",
+	"description":"Lokalne oceanarium, w którym zobaczymy nie tylko kolorowe rybki ale także małe rekiny.",
+	"longitude":"54.0950062",
+	"latitude":"15.0763395"
+	},
+	{
+	"name": "Pomnik Niechorskich Osadników",
+	"description":"Pomnik Niechorskich osadników zlokalizowany w parku nie opodal mola. ",
+	"longitude":"54.0967649",
+	"latitude":"15.0766304"
+	},
+	{
+	"name": "Molo w Niechorzu",
+	"description":"Molo w niechorzu, niegdyś służyło do desantowania wojska i pojazdów wojskowych z łodzi na ląd",
+	"longitude":"54.0972698",
+	"latitude":"15.0767914"
+	},
+	{
+	"name": "Kutry rybackie",
+	"description":"Baza lokalnych rybaków zlokalizowana na plaży, możliwość kupna świeżej ryby o poranku a także przepiękny zachód słońca z drewnianymi kutrami na brzegu",
+	"longitude":"54.0969643",
+	"latitude":"15.0751956"
+	},
+	{
+	"name": "Plac Foki Depki",
+	"description":"Pomnik poświęcony foce, która jako jedna z pierwszych została wypuszczona do morza prze fokanarium na półwyspie helskim",
+	"longitude":"54.0964708",
+	"latitude":"15.0755946"
+	},
+	{
+	"name": "Zabytkowa obora",
+	"description":"Zabytkowa obora pochodząca z czasów XIX wieku.",
+	"longitude":"54.0955448",
+	"latitude":"15.0734577"
+	},
+	{
+	"name": "Dworzec kolejowy",
+	"description":"Odrestaurowany dworzec koleji wąskotorowej w Niechorzu.",
+	"longitude":"54.09428",
+	"latitude":"15.0775342"
+	},
+	{
+	"name": "Park Miniatur Latarni Morskich",
+	"description":"Park ze scieżką spacerową, w którym znajdziemy modele wszystkich polskich latarni morskich.",
+	"longitude":"54.0938254",
+	"latitude":"15.06752"
+	},
+	{
+	"name": "Muzeum Figur Woskowych",
+	"description":"Muzeum figór woskowych w którym znajdziemy odwzorowaną nie jedną postac znaną z kina czy też inne znane postacie ze świata",
+	"longitude":"54.0937805",
+	"latitude":"15.0662952"
+	},
+	{
+	"name": "Motylarnia",
+	"description":"Motylarnia czynna tylko sezonowo. Znadziemy w niej niezliczone gatunki motyli. ",
+	"longitude":"54.0937805",
+	"latitude":"15.0662952"
+	},
+	{
+	"name": "Latarnia Morska Niechorze",
+	"description":"Latarnia Morska w Niechorzu. Wybudowana w latach 60 XIX wieku.",
+	"longitude":"54.0934513",
+	"latitude":"15.0660145"
+	},
+	{
+	"name": "NiecXorze",
+	"description":"Napis NiecXorze stylizowany na słynnym napisie z Amsterdamu.",
+	"longitude":"54.0934814",
+	"latitude":"15.0644051"
+	},
+	{
+	"name": "Aleja Różana",
+	"description":"Aleja różana z wypielęgnowanym ogrodem kwiatowym, zacienionymi ścieżkami i rzeźbami",
+	"longitude":"54.0856565",
+	"latitude":"15.0319882"
+	},
+	{
+	"name": "Ławeczka Romea i Julii",
+	"description":"Pomnik przedstawiający Romea i Julię",
+	"longitude":"54.0854886",
+	"latitude":"15.0291246"
+	},
+	{
+	"name": "Ławeczka Małego Księcia i Róży",
+	"description":"Pomnik przedstawiający Małego Księcia",
+	"longitude":"54.0854886",
+	"latitude":"15.0291246"
+	},
+	{
+	"name": "Taras widokowy",
+	"description":"Ogronny taras widokowy z pięknym widokiem na morze",
+	"longitude":"54.0852454",
+	"latitude":"15.0263368"
+	},
+	{
+	"name": "Pomnik Sybiraków",
+	"description":"Pomnik poswięcony miejscowym mieszkańcom, którzy zostali wywiezieni na syberię",
+	"longitude":"54.0844708",
+	"latitude":"15.0235235"
+	},
+	{
+	"name": "Park Wieloryba",
+	"description":"Park rozrywki z figurami wielorybów i innych stworzeń morskich",
+	"longitude":"54.0813226",
+	"latitude":"15.0191679"
+	},
+	{
+	"name": "Oceanarium",
+	"description":"Lokalne oceanarium, w którym zobaczymy nie tylko kolorowe rybki ale także małe rekiny.",
+	"longitude":"54.081376",
+	"latitude":"15.0179996"
+	},
+	{
+	"name": "Plac Wielorybów",
+	"description":"Pełnowymiarowe pomniki wielorybów wraz z fontanną i tarasem widokowym to charakterystyczne miejsce Rewala",
+	"longitude":"54.0819619",
+	"latitude":"15.0132709"
+	},
+	{
+	"name": "Przystań rybacka",
+	"description":"Baza lokalnych rybaków zlokalizowana na plaży, możliwość kupna świeżej ryby o poranku a także przepiękny zachód słońca z drewnianymi kutrami na brzegu",
+	"longitude":"54.0815567",
+	"latitude":"15.0115265"
+	},
+	{
+	"name": "Amfiteatr Rewal",
+	"description":"W okresie letnim można tu obejrzeć na żywo największe giazdy polskiej muzyki i kabaretów",
+	"longitude":"54.0815567",
+	"latitude":"15.0115265"
+	},
+	{
+	"name": "Pomnik Rybaka",
+	"description":"Pomnik poświęcony lokalnym rybakom",
+	"longitude":"54.0803261",
+	"latitude":"15.0098214"
+	},
+	{
+	"name": "Stacja kolejki wąskotorowej",
+	"description":"Stacja kolejki wąskotorowej",
+	"longitude":"54.0764982",
+	"latitude":"15.0104105"
+	},
+	{
+	"name": "Ruiny Kościoła w Trzęsaczu",
+	"description":"Położone na urwisku ruiny XIV/XV-wiecznego kościoła zbudowanego niegdyś blisko morza",
+	"longitude":"54.0776724",
+	"latitude":"14.9935898"
+	},
+	{
+	"name": "Taras widokowy",
+	"description":"Taras widokowy w Trzęsaczu, oprócz widoku na morze można też obejrzeć ruiny kościoła od strony morza",
+	"longitude":"54.0776724",
+	"latitude":"14.9935898"
+	},
+	{
+	"name": "Deptak W Trzęsaczu",
+	"description":"Piękny deptak przy którym można zjeść świeżą rybę lub odwiedzić lokalne muzem",
+	"longitude":"54.0761133",
+	"latitude":"14.9941017"
+	},
+	{
+	"name": "Multimedialne Muzeum Trzęsacza",
+	"description":"Muzeum z multimedialnymi wystawami na temat ruin kościoła i znaczenia 15. południka",
+	"longitude":"54.0763542",
+	"latitude":"14.993177"
+	},
+	{
+	"name": "Kościół pw. Miłosierdzia Bożego",
+	"description":"Kościół pw. Miłosierdzia Bożego na którego scianach można zobaczyć jeszcze uszkodzenia z czasów 2 wojny światowej",
+	"longitude":"54.0749488",
+	"latitude":"14.9937605"
+	},
+	{
+	"name": "Stacja Kolei Wąskotorowej",
+	"description":"Stacja Kolei Wąskotorowej Trzęsacz",
+	"longitude":"54.0749138",
+	"latitude":"14.9938716"
+	},
+	{
+	"name": "Bałtycki Krzyż Nadziei",
+	"description":"Pełno wymiarowa replika krzyża z Giewontu",
+	"longitude":"54.0698836",
+	"latitude":"14.9720255"
+	},
+	{
+	"name": "Punkt widokowy Pobierowo-Pustkowo",
+	"description":"Puntk widokowy zlokalizowany w lesie między miejscowościami Pobierowo a Pustkowo",
+	"longitude":"54.0670541",
+	"latitude":"14.9534007"
+	},
+	{
+	"name": "Pobierowski Kamień Meteorologiczny",
+	"description":"Puntk meteoroliczny pokazujący w zabawny sposób aktualną pogodę",
+	"longitude":"54.060141",
+	"latitude":"14.9338828"
+	},
+	{
+	"name": "KOTWICA",
+	"description":"Pomnik stworzony z okrętowej kotwicy",
+	"longitude":"54.058275",
+	"latitude":"14.9309193"
+	},
+	{
+	"name": "Zegar kwiatowy",
+	"description":"Pomnik w kształcie zegara",
+	"longitude":"54.0577559",
+	"latitude":"14.9274571"
+	},
+	{
+	"name": "Oceanarium",
+	"description":"Lokalne oceanarium, w którym zobaczymy nie tylko kolorowe rybki ale także małe rekiny.",
+	"longitude":"54.0579712",
+	"latitude":"14.9261866"
+	},
+	{
+	"name": "Magiczny Domek",
+	"description":"Dom odwrócony dogóry nogami",
+	"longitude":"54.0579712",
+	"latitude":"14.9261866"
+	},
+	{
+	"name": "OKO ILUZJI",
+	"description":"Miejce gdzie zobaczymy sporo ciekawych iluzji optycznych",
+	"longitude":"54.0579555",
+	"latitude":"14.9255053"
+	},
+	{
+	"name": "Dom Letniskowy Ewy Braun",
+	"description":"Dome letniksowy należący do żony przywódcy trzeciej rzeszy",
+	"longitude":"54.0561624",
+	"latitude":"14.9095258"
+	},
+]
