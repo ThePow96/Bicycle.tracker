@@ -43,6 +43,9 @@
         <activity
             android:name=".view.LastLocationActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.CreateJourneyActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

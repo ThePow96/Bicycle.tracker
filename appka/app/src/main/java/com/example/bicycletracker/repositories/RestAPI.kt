@@ -8,4 +8,7 @@ interface RestAPI {
 
     @GET("/ThePow96/Bicycle.tracker/master/routesJson.json")
     fun getGamesList(): Call<List<PlacesData>>
+
+    @GET("/ThePow96/Bicycle.tracker/master/places.json")
+    fun getPlacesList(): Call<List<PlacesData>>
 }

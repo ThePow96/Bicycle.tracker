@@ -79,5 +79,6 @@
     <string name="your_coordinates">Your Coordinates:</string>
     <string name="exit_confirmation">Czy na pewno chcesz wyjść z aplikacji?</string>
     <string name="app_close_information">Aplikacja zostanie natymiastowo zamknięta</string>
+    <string name="create_journey">Stwórz trasę</string>
 
 </resources>

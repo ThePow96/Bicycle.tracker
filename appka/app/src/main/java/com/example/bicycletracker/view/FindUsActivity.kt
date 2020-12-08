@@ -2,8 +2,6 @@ package com.example.bicycletracker.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.widget.Toast
 import com.example.bicycletracker.model.PlacesData
 import com.example.bicycletracker.R
 import com.example.bicycletracker.repositories.NetworkLoading
