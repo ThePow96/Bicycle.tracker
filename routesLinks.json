@@ -1,0 +1,58 @@
+ [
+	{
+		"name":"Piekło Północy",	"route":"https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1",
+		"description":"Piekło północy to trasa, na której co roku odbywają się wyścigi kolarskie po trasie kamienno szutrowej. Pierwsze zawody odbyły się w 2018 roku, organizatorem jak i twórca trasy jest lokalny klub kolarski RSC.",
+		"level":"Średnia"
+	},
+	
+	{
+		"name":"Leśne POGO",	"route":"https://www.google.pl/maps/dir/54.09403,15.0994735/54.10331,15.1314346/54.0947744,15.1342285/54.0938412,15.0995376/@54.0981621,15.1024526,2951m/data=!3m1!1e3!4m11!4m10!1m5!3m4!1m2!1d15.0982629!2d54.0984406!3s0x4700769d77090fff:0x1074865de62f8dd9!1m0!1m0!1m0!3e1",
+		"description":"Trasa prowadzi większosci wzdłuż lini kolei wąskotorowej, możliwość sprawdzenia się z kolejką jak i zwiedzenie okolicznego lasu. ",
+		"level":"Łatwa"
+	},
+	
+	{
+		"name":"Szlak Wybrzeża",	"route":"https://www.google.pl/maps/dir/Punkt+widokowy+Pogorzelica+-+Mrze%C5%BCyno/Nadmorska+Kolej+W%C4%85skotorowa+Sp.+z+o.o./Latarnia+Morska+Niechorze/%C5%81aweczka+Romea+i+Julii/Taras+widokowy,+Klifowa+50,+72-344+Rewal/Pomnik+Rybaka+w+Rewalu/Ruiny+Ko%C5%9Bcio%C5%82a+w+Trz%C4%99saczu/Ko%C5%9Bci%C3%B3%C5%82+pw.+Mi%C5%82osierdzia+Bo%C5%BCego/Ba%C5%82tycki+Krzy%C5%BC+Nadziei/Dom+Letniskowy+Ewy+Braun,+Ciechanowska+3,+Pobierowo/@54.0908493,14.9884319,22592m/data=!3m2!1e3!4b1!4m62!4m61!1m5!1m1!1s0x470073a64879dd69:0x4a4f1167bb8a817f!2m2!1d15.2083243!2d54.125691!1m5!1m1!1s0x0:0x31d1db57ef771a9f!2m2!1d15.1252208!2d54.0942192!1m5!1m1!1s0x4700767bbe382c81:0x843689dec164a7!2m2!1d15.0638467!2d54.0947031!1m5!1m1!1s0x470076161881d7f9:0x7eb6d0d0b676ddd7!2m2!1d15.0270036!2d54.0860065!1m5!1m1!1s0x47007624c3d437e5:0x7ce6a8cc74a76239!2m2!1d15.0243737!2d54.0853894!1m5!1m1!1s0x47007624248f3f5d:0x62a570a82ffa269e!2m2!1d15.0100173!2d54.0802977!1m5!1m1!1s0x47aa9d8615bc55b1:0xad63d1df200e75a5!2m2!1d14.992936!2d54.0777467!1m5!1m1!1s0x47aa9d871c514343:0x221de2d0ee248b85!2m2!1d14.9939024!2d54.0749266!1m5!1m1!1s0x47aa9d9dfadb847b:0x55a1ac78bb632725!2m2!1d14.9714058!2d54.070889!1m5!1m1!1s0x47aa9ce76e1d00cf:0x550152e4b0b6068c!2m2!1d14.9086179!2d54.0562222!3e1",
+		"description":"Szlak prowadzący przez sześć z siedmiu miejscowości gminy Rewal, pokazujący uroki miejscowości, ciekawe miejsca oraz widoki rozpościerające się na Polskie morze. Trasa rozpoczyna się na punkcie widokowym nie opodal miejscowości Mrzeżyno a kończy na zabytkowym domku letniskowym Ewy Braun w PObierowie.",
+		"level":"Łatwa"
+	},
+	
+	{
+		"name":"Zabytki Rewal",	"route":"https://www.google.pl/maps/dir/Stacja+kolejki+w%C4%85skotorowej+Rewal/Pomnik+Rybaka+w+Rewalu/Amfiteatr+Rewal,+Parkowa+4,+72-344+Rewal/Wej%C5%9Bcie+nr+24+z+platform%C4%85+widokow%C4%85,+72-344+Rewal/Pomnik+Sybirak%C3%B3w+w+Rewalu,+Plac+Sybirak%C3%B3w,+344,+Adama+Mickiewicza+10,+72-344+Rewal/Taras+widokowy,+Klifowa+50,+72-344+Rewal/%C5%81aweczka+Ma%C5%82ego+Ksi%C4%99cia+i+R%C3%B3%C5%BCy,+Klifowa,+72-344+Rewal/%C5%81aweczka+Romea+i+Julii,+Klifowa,+72-344+Rewal/Aleja+R%C3%B3%C5%BCana,+R%C3%B3%C5%BCana+1,+72-344+Rewal/Park+Wieloryba,+Kamie%C5%84ska+1C,+72-344+Rewal/@54.080821,15.0155304,1412m/data=!3m2!1e3!4b1!4m62!4m61!1m5!1m1!1s0x4700762f9b33ca9d:0xb593a790e0a763b8!2m2!1d15.011423!2d54.075623!1m5!1m1!1s0x0:0x62a570a82ffa269e!2m2!1d15.0100173!2d54.0802977!1m5!1m1!1s0x470076246f3f25b9:0x65dd3a5efce72d32!2m2!1d15.0115469!2d54.080912!1m5!1m1!1s0x47007623ed20ad75:0x3f2f5169a497f868!2m2!1d15.0125126!2d54.0826637!1m5!1m1!1s0x4700779aee7c0e4f:0xe861dafdb67694f1!2m2!1d15.0218367!2d54.0839155!1m5!1m1!1s0x47007624c3d437e5:0x7ce6a8cc74a76239!2m2!1d15.0243737!2d54.0853894!1m5!1m1!1s0x4700761627b84289:0xc559c038d204b1e!2m2!1d15.0260299!2d54.0856179!1m5!1m1!1s0x470076161881d7f9:0x7eb6d0d0b676ddd7!2m2!1d15.0270036!2d54.0860065!1m5!1m1!1s0x4700761600a6e5db:0x5b073cfeb41e560f!2m2!1d15.0288132!2d54.0855567!1m5!1m1!1s0x4700763b77d68503:0x138c5769331f9260!2m2!1d15.0218153!2d54.0795059!3e1",
+		"description":"Trasa oprowadzająca po zabytkach i ciekawych miejscach miejscowości Rewal.",
+		"level":"Łatwa"
+	},
+	
+		{
+		"name":"Zabytki Niechorze",	"route":"https://www.google.pl/maps/dir/K%C5%82adka+na+kanale+Liwia+%C5%81u%C5%BCe,+72-350+Rewal/Muzeum+Rybo%C5%82%C3%B3wstwa+Morskiego/Ko%C5%9Bci%C3%B3%C5%82+pw.+Matki+Bo%C5%BCej+Mi%C5%82osierdzia%2FParafia+pw.+%C5%9Aw.+Stanis%C5%82awa+BM,+Krakowska+22,+72-350+Niechorze/Pomnik+Niechorskich+Osadnik%C3%B3w,+Parkowa,+72-350+Niechorze/Pla%C5%BCa+Niechorze,+Rewal/Foka+Depka,+Morska,+72-350+Niechorze/Park+Miniatur+Latarni+Morskich,+Ludna+16,+72-350+Niechorze/Muzeum+Figur+Woskowych,+Polna+31A,+72-350+Niechorze/Latarnia+Morska+Niechorze,+Polna+30,+72-350+Niechorze/@54.0953739,15.0763702,16z/data=!4m56!4m55!1m5!1m1!1s0x470075f688b5f351:0x98567356b0b29089!2m2!1d15.0982058!2d54.0990693!1m5!1m1!1s0x0:0xfe81f9b128f12823!2m2!1d15.0859253!2d54.0954552!1m5!1m1!1s0x47007680e6f04cdb:0x638260fb9dea63a9!2m2!1d15.0808047!2d54.0963977!1m5!1m1!1s0x47007680bf136c5d:0xb56e688f4397f278!2m2!1d15.0788191!2d54.0967618!1m5!1m1!1s0x470076707153df45:0xa268d0e3eb036d41!2m2!1d15.076569!2d54.097485!1m5!1m1!1s0x4700773ebfbd7a23:0xc2f694bbeada7320!2m2!1d15.0752921!2d54.0959724!1m5!1m1!1s0x4700767c799a64d1:0xd65bfca389efd2a!2m2!1d15.0683719!2d54.0950961!1m5!1m1!1s0x4700767b6d436f23:0x57a42e6d4a5d946d!2m2!1d15.0641995!2d54.093281!1m5!1m1!1s0x4700767bbe382c81:0x843689dec164a7!2m2!1d15.0638467!2d54.0947031!3e1",
+		"description":"Trasa prowadząca po zabytkach i ciekawych atrakcjach w miescowości Niechorze. ",
+		"level":"Łatwa"
+	},
+	
+	{
+		"name":"Pomniki",	"route":"https://www.google.pl/maps/dir/Nadmorska+Kolej+W%C4%85skotorowa+Sp.+z+o.o./Pomnik+Niechorskich+Osadnik%C3%B3w/Foka+Depka,+Morska,+72-350+Niechorze/%C5%81aweczka+Romea+i+Julii,+Klifowa,+72-344+Rewal/Pomnik+Ma%C5%82y+Ksi%C4%85%C5%BC%C4%99,+Klifowa+16,+72-344+Rewal/Plac+Sybirak%C3%B3w,+344,+Adama+Mickiewicza+10,+Rewal/Pomnik+Rybaka+w+Rewalu,+Saperska+18,+72-344+Rewal/Ruiny+Ko%C5%9Bcio%C5%82a+w+Trz%C4%99saczu,+72-344+Trz%C4%99sacz/Ba%C5%82tycki+Krzy%C5%BC+Nadziei,+zej%C5%9Bcie+na+pla%C5%BC%C4%99,+72-344+Pustkowo/Pobierowski+Kamie%C5%84+Meteorologiczny,+Jana+z+Kolna+5,+72-346+Pobierowo/@54.0785066,14.9944385,13z/data=!3m1!4b1!4m62!4m61!1m5!1m1!1s0x0:0x31d1db57ef771a9f!2m2!1d15.1252208!2d54.0942192!1m5!1m1!1s0x47007680bf136c5d:0xb56e688f4397f278!2m2!1d15.0788191!2d54.0967618!1m5!1m1!1s0x4700773ebfbd7a23:0xc2f694bbeada7320!2m2!1d15.0752921!2d54.0959724!1m5!1m1!1s0x470076161881d7f9:0x7eb6d0d0b676ddd7!2m2!1d15.0270036!2d54.0860065!1m5!1m1!1s0x470077dad7357879:0xa4e9c1baa5e8513d!2m2!1d15.0261343!2d54.0857397!1m5!1m1!1s0x4700763d19b0737d:0x5754dfb64ee6b071!2m2!1d15.0219825!2d54.0839228!1m5!1m1!1s0x47007624248f3f5d:0x62a570a82ffa269e!2m2!1d15.0100173!2d54.0802977!1m5!1m1!1s0x47aa9d8615bc55b1:0xad63d1df200e75a5!2m2!1d14.992936!2d54.0777467!1m5!1m1!1s0x47aa9d9dfadb847b:0x55a1ac78bb632725!2m2!1d14.9714058!2d54.070889!1m5!1m1!1s0x47aa9df8d2a4ca9f:0x645f826987801616!2m2!1d14.9336948!2d54.0601609!3e1",
+		"description":"Trasa oprowadzająca po pomnikach znajdujących się w gminie Rewal.",
+		"level":"Łatwa"
+	},
+	
+	{
+		"name":"Liwia",	"route":"https://www.google.pl/maps/dir/54.0943478,15.0802483/54.0915281,15.073439/54.086053,15.0781256/54.0847559,15.0923536/54.0823102,15.1121117/54.0917466,15.1239542/54.093864,15.1000075/54.0942801,15.0808587/@54.0896255,15.0753482,14.25z/data=!4m2!4m1!3e1",
+		"description":"Łatwa trasa prowadząca do okoła lokanego jeziora Liwia. Droga gruntowa nie ułatwia pokonania trasy, lecz pokonanie jej pozwoli zobaczyć jezioro od dzikiej nie zabudowanej strony.",
+		"level":"Średnia"
+	},
+	
+	{
+		"name":"Wzdłuż wybrzeża",	"route":"https://www.google.pl/maps/dir/54.0434107,14.8736281/Ba%C5%82tycki+Krzy%C5%BC+Nadziei,+zej%C5%9Bcie+na+pla%C5%BC%C4%99,+72-344+Pustkowo/Taras+widokowy,+Klifowa+50,+72-344+Rewal/54.0942607,15.0809086/54.1417602,15.2830779/54.1600939,15.4186689/54.16624,15.4908418/%C5%9Acie%C5%BCka+rowerowa,+R-10,+78-100+Grzybowo/54.1726502,15.5377827/54.1859446,15.5534581/@54.1817122,15.5498411,16z/data=!4m27!4m26!1m0!1m5!1m1!1s0x47aa9d9dfadb847b:0x55a1ac78bb632725!2m2!1d14.9714058!2d54.070889!1m5!1m1!1s0x47007624c3d437e5:0x7ce6a8cc74a76239!2m2!1d15.0243737!2d54.0853894!1m0!1m0!1m0!1m0!1m5!1m1!1s0x470015724f0bcff9:0x9ddc46ea7ce8678!2m2!1d15.5114913!2d54.1692231!1m0!1m0!3e1",
+		"description":"Trasa prowadząca w zdłuż wybrzeża, od miejscowości Łukęcin do miasta Kołobrzeg. Na trasie znajduje się duże zróżnicowanie terenu i nawieszni drogi.",
+		"level":"Trudna"
+	},
+	
+ ]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
