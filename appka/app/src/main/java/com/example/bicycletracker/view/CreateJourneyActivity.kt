@@ -17,7 +17,7 @@ import kotlinx.android.synthetic.main.create_journey_layout.*
 class CreateJourneyActivity : AppCompatActivity() {
     private lateinit var compositeDisposable: CompositeDisposable
     private lateinit var adapter: JourneyAdapter
-    var placesList = arrayListOf<PlacesData>()
+    private var placesList = arrayListOf<PlacesData>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
