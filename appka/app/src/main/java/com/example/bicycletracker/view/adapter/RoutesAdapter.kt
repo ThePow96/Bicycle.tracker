@@ -8,13 +8,16 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.bicycletracker.R
-import com.example.bicycletracker.view.interfaces.ActionButton
+import com.example.bicycletracker.model.RoutesData
+import com.example.bicycletracker.view.interfaces.TransferRoutesDetails
 import kotlinx.android.synthetic.main.single_element_border.view.*
 
-class RoutesAdapter(private val context: Context, private val routesLabels: Array<String?>, private val routesLinks: Array<String?>) : RecyclerView.Adapter<RoutesAdapter.GamesViewHolder>() {
-    private lateinit var buttonClickListener: ActionButton
 
-    fun setOnItemClickListener(itemClickListener: ActionButton){
+class RoutesAdapter(private val context: Context, private val placesData: List<RoutesData>) : RecyclerView.Adapter<RoutesAdapter.GamesViewHolder>() {
+
+    private lateinit var buttonClickListener: TransferRoutesDetails
+
+    fun setOnItemClickListener(itemClickListener: TransferRoutesDetails){
         this.buttonClickListener = itemClickListener
     }
 
@@ -24,18 +27,19 @@ class RoutesAdapter(private val context: Context, private val routesLabels: Arra
 
     class GamesViewHolder(itemView: View): RecyclerView.ViewHolder(itemView){
         val element: TextView = itemView.single_label
-        val btn: Button = itemView.button
+        val button: Button = itemView.button
     }
 
     override fun getItemCount(): Int {
-        return routesLabels.size
+        return placesData.size
     }
 
     override fun onBindViewHolder(holder: GamesViewHolder, position: Int) {
-        val currentLabel = routesLabels[position]
-        holder.element.text = currentLabel
-        holder.btn.setOnClickListener {
-            buttonClickListener.buttonPressed(routesLinks[position]!!)
+        val objIncome = placesData[position]
+        holder.element.text = objIncome.name
+
+        holder.button.setOnClickListener {
+            buttonClickListener.moveRoutesDetails(placesData[position], position)
         }
     }
 }

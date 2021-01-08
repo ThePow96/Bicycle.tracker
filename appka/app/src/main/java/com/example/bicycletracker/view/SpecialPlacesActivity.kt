@@ -15,6 +15,10 @@ import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.special_places_layout.*
 
 private const val PLACES_OBJECT_LABEL = "complexObject"
+private const val ITEM_POSITION = "positionItem"
+private const val DECISION_VALUE = 0
+private const val DECISION_LABEL = "decisionLabel"
+
 class SpecialPlacesActivity : AppCompatActivity() {
     private lateinit var compositeDisposable: CompositeDisposable
     private lateinit var adapter: SpecialPlacesAdapter
@@ -45,9 +49,11 @@ class SpecialPlacesActivity : AppCompatActivity() {
         special_places_recycler.adapter = adapter
 
         adapter.setOnItemClickListener(object : TransferIntentDetails {
-            override fun moveDetails(item: PlacesData) {
+            override fun moveDetails(item: PlacesData, position: Int) {
                 val dataIntent = Intent(applicationContext, PlaceDetailsActivity::class.java)
                 dataIntent.putExtra(PLACES_OBJECT_LABEL, item)
+                dataIntent.putExtra(ITEM_POSITION, position)
+                dataIntent.putExtra(DECISION_LABEL, DECISION_VALUE)
                 startActivity(dataIntent)
             }
         })

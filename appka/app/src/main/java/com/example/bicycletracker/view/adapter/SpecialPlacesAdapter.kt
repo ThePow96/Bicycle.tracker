@@ -44,7 +44,7 @@ class SpecialPlacesAdapter(private val context: Context, private val placesData:
         holder.element.text = objIncome.name
 
         holder.button.setOnClickListener {
-            buttonClickListener.moveDetails(placesData[position])
+            buttonClickListener.moveDetails(placesData[position], position)
         }
     }
 }
