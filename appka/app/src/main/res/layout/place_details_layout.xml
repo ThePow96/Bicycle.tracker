@@ -13,6 +13,8 @@
         android:layout_height="0dp"
         android:background="@android:color/transparent"
         android:src="@drawable/logo_appkiv2"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
         app:layout_constraintHeight_percent="0.4"
         app:layout_constraintTop_toTopOf="parent" />
 

@@ -1,5 +1,7 @@
 package com.example.bicycletracker.view
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
@@ -8,6 +10,7 @@ import com.example.bicycletracker.model.PlacesData
 import com.example.bicycletracker.model.RoutesData
 import kotlinx.android.synthetic.main.place_details_layout.*
 
+const val GOOGLE_MAPS_PACKAGE = "com.google.android.apps.maps"
 private const val PLACES_OBJECT_LABEL = "complexObject"
 private const val ITEM_POSITION = "positionItem"
 private const val DECISION_LABEL = "decisionLabel"
@@ -28,6 +31,12 @@ class PlaceDetailsActivity : AppCompatActivity() {
             description.text = intent.description
             place_coordinates.text = intent.longitude.toString() + ", " + intent.latitude
             loadImageFromHttp(link)
+            val moveToMapIntent = Intent(this, MapActivity::class.java)
+            moveToMapIntent.putExtra(PLACES_OBJECT_LABEL, intent)
+            point_on_the_map.setOnClickListener {
+                startActivity(moveToMapIntent)
+            }
+
         }else{
             link = "https://raw.githubusercontent.com/ThePow96/Bicycle.tracker/master/screens/routesLinks/$position.png"
             val intent = intent.getSerializableExtra(PLACES_OBJECT_LABEL) as RoutesData
@@ -35,10 +44,19 @@ class PlaceDetailsActivity : AppCompatActivity() {
             description.text = intent.description
             place_coordinates.text = intent.level
             loadImageFromHttp(link)
+            point_on_the_map.setOnClickListener {
+                openMapWithRoute(intent.route!!)
+            }
         }
     }
 
     private fun loadImageFromHttp(url: String){
         Glide.with(this).load(url).centerCrop().into(imageView8)
+    }
+
+    private fun openMapWithRoute(url: String) {
+        intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+        intent.setPackage(GOOGLE_MAPS_PACKAGE)
+        startActivity(intent)
     }
 }

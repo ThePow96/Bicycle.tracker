@@ -21,7 +21,7 @@ import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.special_places_layout.*
 import kotlinx.android.synthetic.main.track_menu_layout.*
 
-const val GOOGLE_MAPS_PACKAGE = "com.google.android.apps.maps"
+
 private const val PLACES_OBJECT_LABEL = "complexObject"
 private const val ITEM_POSITION = "positionItem"
 private const val DECISION_VALUE = 1
@@ -66,11 +66,5 @@ class TrackMenuActivity : AppCompatActivity() {
                 startActivity(dataIntent)
             }
         })
-    }
-
-    private fun openMapWithRoute(url: String) {
-        intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
-        intent.setPackage(GOOGLE_MAPS_PACKAGE)
-        startActivity(intent)
     }
 }
