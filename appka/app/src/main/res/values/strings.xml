@@ -23,27 +23,6 @@
         <item>+48 732 742 953</item>
     </string-array>
 
-    <string-array name="routesNames">
-        <item>Piekło Północy</item>
-        <item>Leśne Pogo</item>
-        <item>Szlak Wybrzeża</item>
-        <item>Zabytki Gminy</item>
-        <item>Widoki</item>
-        <item>Pomniki</item>
-        <item>Liwia</item>
-        <item>Zabytki Niechorze</item>
-    </string-array>
-
-    <string-array name="routesLinks">
-        <item>https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1</item>
-        <item>https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1</item>
-        <item>https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1</item>
-        <item>https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1</item>
-        <item>https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1</item>
-        <item>https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1</item>
-        <item>https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1</item>
-        <item>https://www.google.pl/maps/dir/54.110794,15.1513578/54.1004606,15.1708193/54.1253998,15.2115476/54.1161949,15.1683894/54.1108461,15.1514719/@54.1110309,15.1536598,4717m/data=!3m1!1e3!4m2!4m1!3e1</item>
-    </string-array>
 
 
     <string name="logo">LOGO</string>
@@ -79,6 +58,6 @@
     <string name="your_coordinates">Your Coordinates:</string>
     <string name="exit_confirmation">Czy na pewno chcesz wyjść z aplikacji?</string>
     <string name="app_close_information">Aplikacja zostanie natymiastowo zamknięta</string>
-    <string name="create_journey">Stwórz trasę</string>
+    <string name="create_journey">Utwórz \n trasę</string>
 
 </resources>

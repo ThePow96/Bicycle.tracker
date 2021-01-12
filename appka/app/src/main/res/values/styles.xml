@@ -46,4 +46,14 @@
         <item name="android:textSize">@dimen/section_view_size</item>
         <item name="android:layout_marginTop">@dimen/section_margin</item>
     </style>
+    <!-- styl opis-->
+    <style name="description" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/description_size</item>
+    </style>
+    <!-- styl koordy-->
+    <style name="cord_size" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/cord_size</item>
+    </style>
 </resources>

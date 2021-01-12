@@ -9,6 +9,12 @@
     <dimen name="section_margin">15dp</dimen>
     //rozmiar
     <dimen name="title_size">40dp</dimen>
+    <dimen name="description_size">25dp</dimen>
+    <dimen name="cord_size">20dp</dimen>
+    <dimen name="button_width">240dp</dimen>
+    <dimen name="button_height">90dp</dimen>
+    <dimen name="logo_width">250dp</dimen>
+    <dimen name="logo_height">250dp</dimen>
 
 
 </resources>
