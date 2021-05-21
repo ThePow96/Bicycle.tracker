@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange_500"
+    tools:context=".view.MainActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent=".1"
+        android:orientation="vertical" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent=".9"
+        android:orientation="vertical" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent=".5"
+        android:orientation="vertical" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_horizontal_income"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".23"
+        />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <devs.mulham.horizontalcalendar.HorizontalCalendarView
+            android:id="@+id/horizontal_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:sizeTopText="0sp"
+            app:textColorNormal="@android:color/white"
+            app:selectorColor="@color/orange_500"
+            app:selectedDateBackground="@color/orange_500_selected"
+            android:background="@color/orange_500"
+            app:layout_constraintTop_toTopOf="parent" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <View
+        android:id="@+id/gray_background"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/rounded_rectangle"
+        app:layout_constraintTop_toTopOf="@id/incomeAndExpenses"
+        android:layout_marginTop="60dp"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_default="wrap" />
+
+    <View
+        android:id="@+id/incomeAndExpenses"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:translationZ="10dp"
+        android:background="@color/gray_btn"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintHeight_default="spread"
+        app:layout_constraintTop_toBottomOf="@+id/appBar"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintEnd_toEndOf="@id/guideline_end"
+        app:layout_constraintBottom_toTopOf="@id/guideline_horizontal_income"
+       />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:translationZ="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/income_amount"
+        app:layout_constraintEnd_toEndOf="@id/guideline_center"
+        app:layout_constraintStart_toStartOf="@id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@id/appBar"
+        tools:text="INCOME" />
+
+    <TextView
+        android:id="@+id/income_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:translationZ="11dp"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_horizontal_income"
+        app:layout_constraintEnd_toEndOf="@id/guideline_center"
+        app:layout_constraintStart_toStartOf="@+id/guideline_start"
+        app:layout_constraintTop_toBottomOf="@+id/appBar"
+        tools:text="2605,20 zł" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:translationZ="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/income_amount"
+        app:layout_constraintEnd_toEndOf="@+id/incomeAndExpenses"
+        app:layout_constraintStart_toStartOf="@+id/guideline_center"
+        app:layout_constraintTop_toBottomOf="@+id/appBar"
+        tools:text="OUTCOME" />
+
+    <TextView
+        android:id="@+id/outcome_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="23sp"
+        android:translationZ="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_horizontal_income"
+        app:layout_constraintEnd_toEndOf="@+id/incomeAndExpenses"
+        app:layout_constraintStart_toStartOf="@+id/guideline_center"
+        app:layout_constraintTop_toBottomOf="@+id/appBar"
+        tools:text="285,21 zł" />
+
+    <ImageButton
+        android:id="@+id/button_minus"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_horizontal_income"
+        app:layout_constraintEnd_toStartOf="@+id/editText"
+        android:background="@android:color/holo_red_dark"
+        android:translationZ="12dp"
+         />
+
+    <ImageButton
+        android:id="@+id/button_add"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@android:color/holo_green_dark"
+        android:translationZ="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_horizontal_income"
+        app:layout_constraintStart_toEndOf="@+id/editText" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:minWidth="100dp"
+        android:layout_height="25dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_horizontal_income"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        android:translationZ="12dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        tools:text="0.00"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="15dp"
+        android:background="@color/gray_bg"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@+id/add_category_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/incomeAndExpenses"
+        app:layout_constraintWidth_default="wrap"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="ZAOSZCZĘDZONO"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/add_category_btn"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_center"
+        app:layout_constraintStart_toStartOf="@+id/guideline_start" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Wydamo"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toTopOf="@+id/add_category_btn"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_center"
+        app:layout_constraintStart_toStartOf="@+id/guideline_start" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/add_category_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/btn_margin"
+        android:adjustViewBounds="true"
+        android:backgroundTint="@color/gray_btn"
+        android:scaleType="fitXY"
+        android:textColor="@android:color/white"
+        app:cornerRadius="7dp"
+        app:icon="@drawable/ic_add_green"
+        app:iconGravity="end"
+        app:iconTint="@color/green_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:text="Add new category" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

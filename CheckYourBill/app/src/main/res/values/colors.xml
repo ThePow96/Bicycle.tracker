@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_500">#117D31</color>
+    <color name="gray_bg">#313131</color>
+    <color name="gray_btn">#3A3A3A</color>
+    <color name="orange_500">#D8A958</color>
+    <color name="orange_500_selected">#E19B23</color>
+</resources>
